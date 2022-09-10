@@ -36,7 +36,7 @@ def main():
     exang = st.text_input("Exercise induced angina (eg: 1=yes; 0 = no)")
     oldpeak = st.text_input("ST depression value")
     slope = st.text_input("Slopping (eg:0-upslopping, 1-flatslopping, 2-downslopping)")
-    ca = st.text_input("No.of Vessels coloured by flourosopy (eg:0-3")
+    ca = st.text_input("No.of Vessels coloured by flourosopy (eg:0-3)")
     thal = st.text_input("Thalium stress level (eg: 1-3:Normal, 6-fixed defect, 7-reversable defect)")
 
     #code for prediction
